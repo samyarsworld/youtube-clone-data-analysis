@@ -1,0 +1,40 @@
+.channelPage {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.channelPage__top {
+    display: flex;
+    height: 200px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(40,13,78,1) 13%, rgba(80,0,45,1) 26%, rgba(47,21,130,1) 36%, rgba(41,25,96,1) 45%, rgba(35,9,121,1) 58%, rgba(35,9,121,1) 67%, rgba(9,57,126,1) 73%);
+}
+
+.channelCard {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.channelCard__avatar {
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+}
+
+.channelCard__info {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+.channelCard__info > p{
+    font-size: small;
+}
+
+.channelPage__feed {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}

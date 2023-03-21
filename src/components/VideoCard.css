@@ -1,0 +1,38 @@
+.videocard {
+    width: 358px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.videocard__img {
+    object-fit: cover;
+    height: 195px;
+    width: 358px;
+    border-radius: 5%;
+}
+
+.videocard__info {
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.videocard__text {
+    margin-left: 15px;
+}
+
+.videocard__text > h4 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.videocard__text > p {
+    font-size: 13px;
+    color: gray;
+}
+
